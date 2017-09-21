@@ -21,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
+gem 'devise'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
