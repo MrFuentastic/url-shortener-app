@@ -10,4 +10,14 @@ Rails.application.routes.draw do
       root 'devise/registrations#new', as: :unauthenticated_root
     end
   end
+
+  get '/links' => 'links#index'
+  get '/links/new' => 'links#new'
+  post '/links' => 'links#create'
+  get '/links/:id' => 'links#show'
+  get '/links/:id/edit' => 'links#edit'
+  post '/links/:id' => 'links#update'
+  get '/links/:id/delete' => 'links#destroy' 
+
+  post '/visits' => 'visits#create'
 end
