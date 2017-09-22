@@ -10,7 +10,7 @@ class Link < ApplicationRecord
 
   def slug
     url = standardize_target_url!
-    url[0..15]
+    url[0..5]
   end
 
   def visit_count
